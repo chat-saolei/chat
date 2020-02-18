@@ -1,0 +1,17 @@
+# for os
+.DS_Store
+*~
+
+# for code
+target/
+hs_err_pid*
+
+# for ide
+.idea/
+*.iml
+
+# special
+local/
+log/
+config_cache/
+
