@@ -1,9 +1,6 @@
 package com.chat.core.net.netty.handler.codec;
 
 import com.chat.core.net.protocol.ProtocolData;
-import enigma.SystemErrorData;
-import imserver.gateway.net.netty.exception.CodecException;
-import imserver.gateway.net.protocol.ProtocolConstant;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.ByteToMessageCodec;

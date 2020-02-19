@@ -8,6 +8,7 @@ import java.lang.reflect.Method;
 @Data
 @AllArgsConstructor
 public class DispatchInfo {
+    private boolean needLogin;
     private Object controller;
     private Method method;
     private Class reqParamClass;

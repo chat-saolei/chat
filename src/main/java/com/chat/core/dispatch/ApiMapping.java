@@ -1,6 +1,6 @@
 package com.chat.core.dispatch;
 
-import com.landlord.common.common.Cmd;
+import com.chat.common.Cmd;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -11,4 +11,5 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface ApiMapping {
     Cmd value();
+    boolean login() default true;
 }
